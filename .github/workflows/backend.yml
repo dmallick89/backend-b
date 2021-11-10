@@ -28,4 +28,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run backend-b application build
-        run: echo backend-b application...
+        run: |
+          echo "backend-b application..."
+          exit 1
+        
